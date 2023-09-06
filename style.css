@@ -1,0 +1,114 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'MiFuente', sans-serif;
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('fonts/Simpsonfont-DEMO.woff') format('woff'); /* Reemplaza 'ruta/a/mi_fuente.woff' con la ruta real del archivo de fuente WOFF */
+  }
+  
+  body{
+    background-image: url(img/wood.jpg);
+    background-size: cover;
+  }
+
+
+  #intro{
+    text-align: center;
+    color: white;     
+    text-shadow: #2f64d6;
+    padding: 10px;
+    background-image: url();
+  }
+
+  h1{
+    text-shadow:
+    -1px -1px 0 #ff81c1,
+    1px -1px 0 #ff81c1, 
+    -1px 1px 0 #ff81c1,
+    1px 1px 0 #ff81c1;
+  }
+
+#generator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  #btn {
+    margin: 10px;
+    padding: 10px 20px; 
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ff81c1;
+    color: white; 
+    transition: transform 0.3s;
+  }
+  
+  
+  #btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .arrow{
+    filter: invert(100%);
+    width:40px;
+  }
+
+  #container{
+    width: 50%;
+    margin: auto;
+    color:#f8db27;
+    background-size:cover;
+    border-radius: 10px;
+    background-image: url(img/cielo-fondo-videoconferencia_23-2148638210.avif);
+  }
+
+  #container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+  }
+  
+
+  #pj{
+    background-image: url(img/thesimpsons_yellowfaces_zoom_ec07dd0a.jpeg);
+    background-size:cover;
+    min-width: 200px;
+    min-height: 400px;
+    max-width: 200px;
+    max-height: 400px;
+    padding: 20px;
+    border-style: solid;
+    border-color: #f8db27;
+    border-radius: 20px;
+  }
+
+  #pj img{
+    width: 150px;
+    height: auto;
+    margin: auto;
+  }
+
+  #info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color:#f8db27;
+    font-size: 20px;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black, 
+    -1px 1px 0 black,
+    1px 1px 0 black;
+  }
+
+  #info p{
+    width: 250px;
+    height: 150px;
+    margin-top: 60px;
+  }
